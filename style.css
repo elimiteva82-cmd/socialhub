@@ -1,0 +1,172 @@
+body{
+	font-family:'lato', sans-serif;
+	margin:0px auto;
+	padding:50px;
+}
+
+header{
+	font-size:italic;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.logo{
+	width:100%;
+	height:100%;
+	float:center;
+	padding-bottom:30px;
+}
+
+nav{
+	width:100%;
+	background-color:#475993;
+	margin:0 auto;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:20px;
+}
+
+.nav li{
+	display:inline-block;
+	padding:0px 7px;
+}
+
+.nav ul{
+	margin-left:20px;
+}
+
+.nav a:link, .nav a:visited{
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+}
+
+.nav a:hover{
+	color:#475993;
+	background-color:white;
+	display:block;
+	border-radius:20px;
+	padding:0px 15px;
+}
+
+footer{
+	text-align:center;
+	color:white;
+	background:#475993;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:2px solid #475993;
+	border-radius:20px;
+	margin-top:25px;
+}
+
+table, td{
+	font-size:20px;
+	text-align:center;
+	line-height:1.6;
+	margin:auto;
+	padding:7px;
+}
+
+img{
+	border-radius:20px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:2px;
+}
+
+button{
+	background-color:white;
+	border:2px solid #475993;
+	border-radius:20px;
+	color:#475993;
+	text-align:center;
+	padding:7px;
+	cursor:pointer;
+	transition-duration:0.4s;
+}
+
+button:hover{
+	background-color:#475993;
+	color:white;
+}
+
+.box1{
+	background:#fee4d1;
+	border:1px solid #fee4d1;
+	border-radius:20px;
+	line-height:1.6;
+	text-align:center;
+	
+}
+
+.box2{
+	background:#dcf0cf;
+	border:1px solid #dcf0cf;
+	border-radius:20px;
+	line-height:1.6;
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.box3{
+	background:#fbf7c8;
+	border:1px solid #fbf7c8;
+	border-radius:20px;
+	line-height:1.6;
+	text-align:center;
+}
+
+section{
+	display:flex;
+}
+
+article{
+	text-align:justify;
+	width:98%;
+	margin:20px 20px;
+	line-height:1.8;
+}
+
+.image{
+	display:inline-block;
+	text-align:center;
+	width:32%;
+}
+
+.page-info{
+	display:inline-block;
+	text-align:center;
+	width:32%;
+}
+
+article h3{
+	text-align:center;
+	font-size:25px;
+}
+	
+.partner_textbook {
+	width: 80%;
+	margin-left: 45px;
+	float: left;
+	text-align: justify;
+	text-indent: 1cm;
+	font-size:16px;
+}
+
+.main_row {
+	width: 100%;
+	margin: 10px;
+	float: left;
+	text-align: center;
+}	
+
+.partner_imgbox{
+	width : 400px;
+	float: right;
+	margin-right: 15px;
+	margin-left:45px;
+}
+

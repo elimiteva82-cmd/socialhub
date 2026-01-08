@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title> Социален хъб </title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style-contact.css">
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="image/logo.png" height="110">
+			</div>
+		
+			<div>
+				<nav class="nav">
+					<ul>
+					<li><a href="index.html">Начало</a></li>
+					<li><a href="about.html">За нас</a></li>
+					<li><a href="partners.html">Партньори</a></li>
+					<li><a href="gallery.html">Галерия</a></li>
+					<li><a href="#">Контакти</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Име</label>
+    <input type="text" id="fname" name="firstname" placeholder="Вашето име..">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Вашата фамилия..">
+
+    <label for="country">Държава</label>
+    <select id="country" name="country">
+      <option value="australia">Австралия</option>
+	  <option value="bulgaria">България</option>
+      <option value="canada">Канада</option>
+	  <option value="greece">Гърция</option>
+      <option value="usa">САЩ</option>
+    </select>
+
+    <label for="subject">Относно</label>
+    <textarea id="subject" name="subject" placeholder="Съобщение.." style="height:200px"></textarea>
+
+    <input type="submit" value="Изпрати">
+
+  </form>
+</div>
+			
+		</body>
+		<footer>
+		<p>Елина Митева | 2025 </p>
+	</footer>
+</html>
